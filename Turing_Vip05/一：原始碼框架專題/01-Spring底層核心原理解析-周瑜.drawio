@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T05:21:48.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="WsU7-Yn6jy89paoDfsPU" version="20.5.3" type="github"><diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">dZFND8IgDIZ/DVezjbi48/y6eNrBMwIOIqMLY9n017sFEEn0QsrTt31LQbju5pMhvbgA4woVGZsR3qOiqKpsOVfwdKDMPWiNZA7lETTyxT0MslEyPiRCC6Cs7FNIQWtObcKIMTClsjuo1LUnrXfMImgoUWGOzTbyq2RWOL4rysjPXLYieOdl5TI3Qh+tgVF7Rw2au0xHQhtvOgjCYPpC+IBwbQCsi7q55mrda9iZqzv+yX7eZri2PwqWIPZeLsnn4cMb</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-07T07:20:35.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="zek3qC5lgglENYLuvbBS" version="20.5.3" type="github">
+  <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
+    <mxGraphModel dx="1720" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-2" target="AvaifdtCPCKWoQqbtJCX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;UserService.class&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-3" target="AvaifdtCPCKWoQqbtJCX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-3" value="&lt;span style=&quot;text-align: left;&quot;&gt;無參建構子&lt;br&gt;（推斷構造方法）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-5" target="AvaifdtCPCKWoQqbtJCX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-5" value="&lt;span style=&quot;text-align: left;&quot;&gt;物件&lt;br&gt;(對象)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-7" target="AvaifdtCPCKWoQqbtJCX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-7" value="&lt;span style=&quot;text-align: left;&quot;&gt;依賴注入&lt;br&gt;(屬性賦值)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-9" target="AvaifdtCPCKWoQqbtJCX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;初始化前(@PostConstruct)&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-11" target="AvaifdtCPCKWoQqbtJCX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-11" value="&lt;span style=&quot;text-align: left;&quot;&gt;初始化&lt;br&gt;(Initial izingBean)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-18" target="AvaifdtCPCKWoQqbtJCX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;初始化後&lt;br&gt;(AOP)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AvaifdtCPCKWoQqbtJCX-20" target="AvaifdtCPCKWoQqbtJCX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;代理物件&lt;br&gt;(代理對象)&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AvaifdtCPCKWoQqbtJCX-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;Beam&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
